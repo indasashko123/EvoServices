@@ -11,11 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{EE93D8F5-B4E5-4FA0-A0A9-20CBF472A4CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletService.Core", "..\WalletService.Core\WalletService.Core.csproj", "{31A44CEF-5EE2-458A-85FB-C1D882A93C05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalletService.Core", "..\WalletService.Core\WalletService.Core.csproj", "{31A44CEF-5EE2-458A-85FB-C1D882A93C05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletService.Persistance", "..\WalletService.Persistance\WalletService.Persistance.csproj", "{22D1DF16-CF6F-4954-BD22-308159190EB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalletService.Persistance", "..\WalletService.Persistance\WalletService.Persistance.csproj", "{22D1DF16-CF6F-4954-BD22-308159190EB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletService.WebApi", "..\WalletService.WebApi\WalletService.WebApi.csproj", "{B93F54DC-7742-44C3-9EBE-12E4DBDDC60A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalletService.WebApi", "..\WalletService.WebApi\WalletService.WebApi.csproj", "{B93F54DC-7742-44C3-9EBE-12E4DBDDC60A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalletService.Application", "..\WalletService.Application\WalletService.Application.csproj", "{7A2C4A7F-A6DC-491E-B854-89C7D6CF50BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wallet.Utills", "Wallet.Utills\Wallet.Utills.csproj", "{8D77776B-2668-4C83-A5F4-83ECC2B75A2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{B93F54DC-7742-44C3-9EBE-12E4DBDDC60A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B93F54DC-7742-44C3-9EBE-12E4DBDDC60A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B93F54DC-7742-44C3-9EBE-12E4DBDDC60A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2C4A7F-A6DC-491E-B854-89C7D6CF50BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2C4A7F-A6DC-491E-B854-89C7D6CF50BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2C4A7F-A6DC-491E-B854-89C7D6CF50BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2C4A7F-A6DC-491E-B854-89C7D6CF50BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D77776B-2668-4C83-A5F4-83ECC2B75A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D77776B-2668-4C83-A5F4-83ECC2B75A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D77776B-2668-4C83-A5F4-83ECC2B75A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D77776B-2668-4C83-A5F4-83ECC2B75A2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +58,8 @@ Global
 		{31A44CEF-5EE2-458A-85FB-C1D882A93C05} = {47EC1E0A-BAEB-422B-A790-B3E37A29D565}
 		{22D1DF16-CF6F-4954-BD22-308159190EB7} = {D84902E2-0504-4805-8BEC-E7B6CB97171A}
 		{B93F54DC-7742-44C3-9EBE-12E4DBDDC60A} = {EE93D8F5-B4E5-4FA0-A0A9-20CBF472A4CA}
+		{7A2C4A7F-A6DC-491E-B854-89C7D6CF50BC} = {47EC1E0A-BAEB-422B-A790-B3E37A29D565}
+		{8D77776B-2668-4C83-A5F4-83ECC2B75A2B} = {47EC1E0A-BAEB-422B-A790-B3E37A29D565}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5236BB96-E631-493B-879C-AE3F1E5816B3}
