@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using AutoMapper;
 
 namespace WalletService.Application.Interfaces
 {
-    internal interface IMapWith
+    public interface IMapWith<T>
     {
+        void Mapping(Profile profile) => profile.CreateMap(typeof(T), GetType());
+
     }
 }
